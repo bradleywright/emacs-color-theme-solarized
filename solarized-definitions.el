@@ -311,6 +311,8 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (ido-only-match (,@fg-green))
                 (ido-subdir (,@fg-blue))
                 (ido-first-match (,@fmt-bold ,@fg-green))
+                ;; flx
+                (flx-highlight-face (:inherit font-lock-variable-name-face ,@fmt-undr))
                 ;; emacs-wiki
                 (emacs-wiki-bad-link-face (,@fmt-undr ,@fg-red))
                 (emacs-wiki-link-face (,@fmt-undr ,@fg-blue))
